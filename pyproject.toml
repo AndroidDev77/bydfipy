@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bydfipy"
+version = "0.1.0"
+description = "Python client for the BYDFi cryptocurrency exchange API"
+readme = "README.md"
+authors = [
+    {name = "BYDFi API", email = "info@bydfi.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "httpx>=0.22.0",
+    "pydantic>=1.9.0",
+    "websockets>=10.0",
+    "typing-extensions>=4.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AndroidDev77/bydfipy"
+"Bug Tracker" = "https://github.com/AndroidDev77/bydfipy/issues"
+
+[tool.setuptools]
+packages = ["bydfipy"]
