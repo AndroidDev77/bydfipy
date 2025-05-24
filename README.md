@@ -5,7 +5,7 @@ A Python client library for the BYDFi cryptocurrency exchange API.
 ## Installation
 
 ```bash
-pip install bydfipy
+pip install https://github.com/AndroidDev77/bydfipy/archive/refs/heads/main.zip
 ```
 
 ## Features
